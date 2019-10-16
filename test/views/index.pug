@@ -4,14 +4,36 @@ html(lang="en")
         title Keyboard UI
         meta(charset="utf-8")
         meta(name="description" content="Lorem ipsum dolor sit amet.")
-        link(rel="stylesheet" href="../css/reset.css")
-        link(rel="stylesheet" href="../css/keyui.css")
-        link(rel="stylesheet" href="./css/style.css")
+        link(rel="stylesheet" href="./test/out/css/style.css")
     body
         - var sections = 1
         while sections <= 15 
             div(class="section" + sections++)
-                button.ui.transparent Transparent
-                .input.transparent
-                    input(size="35", value="")
-        script(src="../js/keyui.js")
+                .wrapper
+                    .wrap
+                        button.ui.transparent Transparent
+                        button.ui.primary Primary
+                    .ui.input.transparent
+                        label Regular input with label
+                        div And this is some tip
+                        input(size="45", value="")
+                    .ui.input.transparent.disabled
+                        label Disabled transparent input
+                        input(size="45", value="", disabled)
+                    .ui.input.error
+                        label Error example
+                        div And this is some tip
+                        input(size="45", value="")
+                    .box
+                        span.text Pagination
+                        form.ui.pag.transparent
+                            button(type="button")
+                                i.ui.arrow.l
+                            .ui.test.transparent
+                                input(type="number")
+                            span /
+                            span 10
+                            button(type="button")
+                                i.ui.arrow.r
+
+        script(type="module" src="./js/keyui.js")

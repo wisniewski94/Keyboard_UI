@@ -1,11 +1,7 @@
-/*$(document).ready(function(){
-    $("body").on('click', ".drp-u li", function() {
-        var txt = $(this).text();
-        $(this).parent().prev(".drp-txt").text(txt);
-        $(this).parent().prevAll('.drp-i').val(txt);
-    });
-});*/
-var el = document.querySelector("button.ui");
-el.addEventListener("mousedown", function() {
-    this.blur();
+import whatInput from "what-input";
+
+document.addEventListener("click", e => {
+  if (whatInput.ask() === "mouse") {
+    if (e.target.tagName === "BUTTON") e.target.blur();
+  }
 });

@@ -18,6 +18,8 @@ Fork or download kit from GitHub. Install dependencies using:
 $ npm i
 ```
 
+<b><i>HTML TAG TEST</i></b>
+
 View example `.html` files inside `./test/out` catalog.
 
 ### Structure
