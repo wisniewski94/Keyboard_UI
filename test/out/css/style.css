@@ -220,10 +220,17 @@ table {
           background-color: white;
           box-shadow: 0 0px 3px #e6e6e6 inset;
           -webkit-text-fill-color: #737373; }
+          .ui.checkbox input[type="checkbox"] + label::before input:valid, .ui.checkbox input[type="checkbox"] + label::before select:valid, .ui.checkbox input[type="checkbox"] + label::before textarea:valid {
+            padding-right: 5px;
+            padding-left: 25px;
+            background: url("../img/x.png"), url("../img/check.png");
+            background-size: 20px 20px,15px 15px;
+            background-repeat: no-repeat;
+            background-position: 5px 6px ,98% 8px; }
           .ui.checkbox input[type="checkbox"] + label::before input:focus:not(.error), .ui.checkbox input[type="checkbox"] + label::before select:focus:not(.error), .ui.checkbox input[type="checkbox"] + label::before textarea:focus:not(.error) {
             border: 2px solid #0066ff;
             box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-            padding: 7px; }
+            padding: px; }
           .ui.checkbox input[type="checkbox"] + label::before input:hover, .ui.checkbox input[type="checkbox"] + label::before input:focus, .ui.checkbox input[type="checkbox"] + label::before select:hover, .ui.checkbox input[type="checkbox"] + label::before select:focus, .ui.checkbox input[type="checkbox"] + label::before textarea:hover, .ui.checkbox input[type="checkbox"] + label::before textarea:focus {
             background-color: white; }
         .ui.checkbox input[type="checkbox"] + label::before label, .ui.checkbox input[type="checkbox"] + label::before label + * {
@@ -330,10 +337,17 @@ table {
         background-color: white;
         box-shadow: 0 0px 3px #e6e6e6 inset;
         -webkit-text-fill-color: #737373; }
+        .section1 .wrapper .input.transparent input:valid, .section1 .wrapper .input.transparent select:valid, .section1 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section1 .wrapper .input.transparent input:focus:not(.error), .section1 .wrapper .input.transparent select:focus:not(.error), .section1 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section1 .wrapper .input.transparent input:hover, .section1 .wrapper .input.transparent input:focus, .section1 .wrapper .input.transparent select:hover, .section1 .wrapper .input.transparent select:focus, .section1 .wrapper .input.transparent textarea:hover, .section1 .wrapper .input.transparent textarea:focus {
           background-color: white; }
       .section1 .wrapper .input.transparent label, .section1 .wrapper .input.transparent label + * {
@@ -343,6 +357,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section1 .wrapper .input.error input:valid, .section1 .wrapper .input.error select:valid, .section1 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section1 .wrapper .input.error input:focus, .section1 .wrapper .input.error select:focus, .section1 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -485,10 +506,17 @@ table {
         background-color: white;
         box-shadow: 0 0px 3px #decaa1 inset;
         -webkit-text-fill-color: #715928; }
+        .section2 .wrapper .input.transparent input:valid, .section2 .wrapper .input.transparent select:valid, .section2 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section2 .wrapper .input.transparent input:focus:not(.error), .section2 .wrapper .input.transparent select:focus:not(.error), .section2 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section2 .wrapper .input.transparent input:hover, .section2 .wrapper .input.transparent input:focus, .section2 .wrapper .input.transparent select:hover, .section2 .wrapper .input.transparent select:focus, .section2 .wrapper .input.transparent textarea:hover, .section2 .wrapper .input.transparent textarea:focus {
           background-color: #f2eada; }
       .section2 .wrapper .input.transparent label, .section2 .wrapper .input.transparent label + * {
@@ -498,6 +526,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section2 .wrapper .input.error input:valid, .section2 .wrapper .input.error select:valid, .section2 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section2 .wrapper .input.error input:focus, .section2 .wrapper .input.error select:focus, .section2 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -640,10 +675,17 @@ table {
         background-color: #dedad0;
         box-shadow: 0 0px 3px #aa9e85 inset;
         -webkit-text-fill-color: #2b271e; }
+        .section3 .wrapper .input.transparent input:valid, .section3 .wrapper .input.transparent select:valid, .section3 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section3 .wrapper .input.transparent input:focus:not(.error), .section3 .wrapper .input.transparent select:focus:not(.error), .section3 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section3 .wrapper .input.transparent input:hover, .section3 .wrapper .input.transparent input:focus, .section3 .wrapper .input.transparent select:hover, .section3 .wrapper .input.transparent select:focus, .section3 .wrapper .input.transparent textarea:hover, .section3 .wrapper .input.transparent textarea:focus {
           background-color: #c9c2b2; }
       .section3 .wrapper .input.transparent label, .section3 .wrapper .input.transparent label + * {
@@ -653,6 +695,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section3 .wrapper .input.error input:valid, .section3 .wrapper .input.error select:valid, .section3 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section3 .wrapper .input.error input:focus, .section3 .wrapper .input.error select:focus, .section3 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -795,10 +844,17 @@ table {
         background-color: #6b6b6b;
         box-shadow: 0 0px 3px #2c2c2c inset;
         -webkit-text-fill-color: #ebebeb; }
+        .section4 .wrapper .input.transparent input:valid, .section4 .wrapper .input.transparent select:valid, .section4 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section4 .wrapper .input.transparent input:focus:not(.error), .section4 .wrapper .input.transparent select:focus:not(.error), .section4 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section4 .wrapper .input.transparent input:hover, .section4 .wrapper .input.transparent input:focus, .section4 .wrapper .input.transparent select:hover, .section4 .wrapper .input.transparent select:focus, .section4 .wrapper .input.transparent textarea:hover, .section4 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #525252; }
@@ -809,6 +865,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section4 .wrapper .input.error input:valid, .section4 .wrapper .input.error select:valid, .section4 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section4 .wrapper .input.error input:focus, .section4 .wrapper .input.error select:focus, .section4 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -953,10 +1016,17 @@ table {
         background-color: #df6b4e;
         box-shadow: 0 0px 3px #94321a inset;
         -webkit-text-fill-color: white; }
+        .section5 .wrapper .input.transparent input:valid, .section5 .wrapper .input.transparent select:valid, .section5 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section5 .wrapper .input.transparent input:focus:not(.error), .section5 .wrapper .input.transparent select:focus:not(.error), .section5 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section5 .wrapper .input.transparent input:hover, .section5 .wrapper .input.transparent input:focus, .section5 .wrapper .input.transparent select:hover, .section5 .wrapper .input.transparent select:focus, .section5 .wrapper .input.transparent textarea:hover, .section5 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #d54826; }
@@ -967,6 +1037,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section5 .wrapper .input.error input:valid, .section5 .wrapper .input.error select:valid, .section5 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section5 .wrapper .input.error input:focus, .section5 .wrapper .input.error select:focus, .section5 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1111,10 +1188,17 @@ table {
         background-color: #de7b70;
         box-shadow: 0 0px 3px #a73427 inset;
         -webkit-text-fill-color: white; }
+        .section6 .wrapper .input.transparent input:valid, .section6 .wrapper .input.transparent select:valid, .section6 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section6 .wrapper .input.transparent input:focus:not(.error), .section6 .wrapper .input.transparent select:focus:not(.error), .section6 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section6 .wrapper .input.transparent input:hover, .section6 .wrapper .input.transparent input:focus, .section6 .wrapper .input.transparent select:hover, .section6 .wrapper .input.transparent select:focus, .section6 .wrapper .input.transparent textarea:hover, .section6 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #d45547; }
@@ -1125,6 +1209,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section6 .wrapper .input.error input:valid, .section6 .wrapper .input.error select:valid, .section6 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section6 .wrapper .input.error input:focus, .section6 .wrapper .input.error select:focus, .section6 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1269,10 +1360,17 @@ table {
         background-color: #f1a869;
         box-shadow: 0 0px 3px #c96612 inset;
         -webkit-text-fill-color: black; }
+        .section7 .wrapper .input.transparent input:valid, .section7 .wrapper .input.transparent select:valid, .section7 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section7 .wrapper .input.transparent input:focus:not(.error), .section7 .wrapper .input.transparent select:focus:not(.error), .section7 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section7 .wrapper .input.transparent input:hover, .section7 .wrapper .input.transparent input:focus, .section7 .wrapper .input.transparent select:hover, .section7 .wrapper .input.transparent select:focus, .section7 .wrapper .input.transparent textarea:hover, .section7 .wrapper .input.transparent textarea:focus {
           background-color: #ed8d3a; }
       .section7 .wrapper .input.transparent label, .section7 .wrapper .input.transparent label + * {
@@ -1282,6 +1380,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section7 .wrapper .input.error input:valid, .section7 .wrapper .input.error select:valid, .section7 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section7 .wrapper .input.error input:focus, .section7 .wrapper .input.error select:focus, .section7 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1424,10 +1529,17 @@ table {
         background-color: #fcd56e;
         box-shadow: 0 0px 3px #e5a805 inset;
         -webkit-text-fill-color: #040300; }
+        .section8 .wrapper .input.transparent input:valid, .section8 .wrapper .input.transparent select:valid, .section8 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section8 .wrapper .input.transparent input:focus:not(.error), .section8 .wrapper .input.transparent select:focus:not(.error), .section8 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section8 .wrapper .input.transparent input:hover, .section8 .wrapper .input.transparent input:focus, .section8 .wrapper .input.transparent select:hover, .section8 .wrapper .input.transparent select:focus, .section8 .wrapper .input.transparent textarea:hover, .section8 .wrapper .input.transparent textarea:focus {
           background-color: #fbc73c; }
       .section8 .wrapper .input.transparent label, .section8 .wrapper .input.transparent label + * {
@@ -1437,6 +1549,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section8 .wrapper .input.error input:valid, .section8 .wrapper .input.error select:valid, .section8 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section8 .wrapper .input.error input:focus, .section8 .wrapper .input.error select:focus, .section8 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1579,10 +1698,17 @@ table {
         background-color: #09cfb5;
         box-shadow: 0 0px 3px #04554a inset;
         -webkit-text-fill-color: #dafdf9; }
+        .section9 .wrapper .input.transparent input:valid, .section9 .wrapper .input.transparent select:valid, .section9 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section9 .wrapper .input.transparent input:focus:not(.error), .section9 .wrapper .input.transparent select:focus:not(.error), .section9 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section9 .wrapper .input.transparent input:hover, .section9 .wrapper .input.transparent input:focus, .section9 .wrapper .input.transparent select:hover, .section9 .wrapper .input.transparent select:focus, .section9 .wrapper .input.transparent textarea:hover, .section9 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #079e8a; }
@@ -1593,6 +1719,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section9 .wrapper .input.error input:valid, .section9 .wrapper .input.error select:valid, .section9 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section9 .wrapper .input.error input:focus, .section9 .wrapper .input.error select:focus, .section9 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1737,10 +1870,17 @@ table {
         background-color: #a63247;
         box-shadow: 0 0px 3px #44141d inset;
         -webkit-text-fill-color: #f6e1e5; }
+        .section10 .wrapper .input.transparent input:valid, .section10 .wrapper .input.transparent select:valid, .section10 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section10 .wrapper .input.transparent input:focus:not(.error), .section10 .wrapper .input.transparent select:focus:not(.error), .section10 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section10 .wrapper .input.transparent input:hover, .section10 .wrapper .input.transparent input:focus, .section10 .wrapper .input.transparent select:hover, .section10 .wrapper .input.transparent select:focus, .section10 .wrapper .input.transparent textarea:hover, .section10 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #7f2636; }
@@ -1751,6 +1891,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section10 .wrapper .input.error input:valid, .section10 .wrapper .input.error select:valid, .section10 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section10 .wrapper .input.error input:focus, .section10 .wrapper .input.error select:focus, .section10 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -1895,10 +2042,17 @@ table {
         background-color: #2289b3;
         box-shadow: 0 0px 3px #0e3748 inset;
         -webkit-text-fill-color: #dcf0f8; }
+        .section11 .wrapper .input.transparent input:valid, .section11 .wrapper .input.transparent select:valid, .section11 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section11 .wrapper .input.transparent input:focus:not(.error), .section11 .wrapper .input.transparent select:focus:not(.error), .section11 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section11 .wrapper .input.transparent input:hover, .section11 .wrapper .input.transparent input:focus, .section11 .wrapper .input.transparent select:hover, .section11 .wrapper .input.transparent select:focus, .section11 .wrapper .input.transparent textarea:hover, .section11 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #1a6888; }
@@ -1909,6 +2063,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section11 .wrapper .input.error input:valid, .section11 .wrapper .input.error select:valid, .section11 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section11 .wrapper .input.error input:focus, .section11 .wrapper .input.error select:focus, .section11 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -2053,10 +2214,17 @@ table {
         background-color: #1f8299;
         box-shadow: 0 0px 3px #09282f inset;
         -webkit-text-fill-color: #c4eaf3; }
+        .section12 .wrapper .input.transparent input:valid, .section12 .wrapper .input.transparent select:valid, .section12 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section12 .wrapper .input.transparent input:focus:not(.error), .section12 .wrapper .input.transparent select:focus:not(.error), .section12 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section12 .wrapper .input.transparent input:hover, .section12 .wrapper .input.transparent input:focus, .section12 .wrapper .input.transparent select:hover, .section12 .wrapper .input.transparent select:focus, .section12 .wrapper .input.transparent textarea:hover, .section12 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #165e6e; }
@@ -2067,6 +2235,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section12 .wrapper .input.error input:valid, .section12 .wrapper .input.error select:valid, .section12 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section12 .wrapper .input.error input:focus, .section12 .wrapper .input.error select:focus, .section12 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -2211,10 +2386,17 @@ table {
         background-color: #64b681;
         box-shadow: 0 0px 3px #326945 inset;
         -webkit-text-fill-color: white; }
+        .section13 .wrapper .input.transparent input:valid, .section13 .wrapper .input.transparent select:valid, .section13 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section13 .wrapper .input.transparent input:focus:not(.error), .section13 .wrapper .input.transparent select:focus:not(.error), .section13 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #1a5fc7;
           box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section13 .wrapper .input.transparent input:hover, .section13 .wrapper .input.transparent input:focus, .section13 .wrapper .input.transparent select:hover, .section13 .wrapper .input.transparent select:focus, .section13 .wrapper .input.transparent textarea:hover, .section13 .wrapper .input.transparent textarea:focus {
           -webkit-text-fill-color: white;
           background-color: #4a9d67; }
@@ -2225,6 +2407,13 @@ table {
         box-shadow: 0 0px 3px #ff6341 inset;
         background-color: #ffcbc0;
         -webkit-text-fill-color: #0e0200; }
+        .section13 .wrapper .input.error input:valid, .section13 .wrapper .input.error select:valid, .section13 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section13 .wrapper .input.error input:focus, .section13 .wrapper .input.error select:focus, .section13 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -2369,10 +2558,17 @@ table {
         background-color: #7dc37a;
         box-shadow: 0 0px 3px #3d833b inset;
         -webkit-text-fill-color: black; }
+        .section14 .wrapper .input.transparent input:valid, .section14 .wrapper .input.transparent select:valid, .section14 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section14 .wrapper .input.transparent input:focus:not(.error), .section14 .wrapper .input.transparent select:focus:not(.error), .section14 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section14 .wrapper .input.transparent input:hover, .section14 .wrapper .input.transparent input:focus, .section14 .wrapper .input.transparent select:hover, .section14 .wrapper .input.transparent select:focus, .section14 .wrapper .input.transparent textarea:hover, .section14 .wrapper .input.transparent textarea:focus {
           background-color: #5ab357; }
       .section14 .wrapper .input.transparent label, .section14 .wrapper .input.transparent label + * {
@@ -2382,6 +2578,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section14 .wrapper .input.error input:valid, .section14 .wrapper .input.error select:valid, .section14 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section14 .wrapper .input.error input:focus, .section14 .wrapper .input.error select:focus, .section14 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;
@@ -2524,10 +2727,17 @@ table {
         background-color: #cfe9a9;
         box-shadow: 0 0px 3px #96cf43 inset;
         -webkit-text-fill-color: #192309; }
+        .section15 .wrapper .input.transparent input:valid, .section15 .wrapper .input.transparent select:valid, .section15 .wrapper .input.transparent textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section15 .wrapper .input.transparent input:focus:not(.error), .section15 .wrapper .input.transparent select:focus:not(.error), .section15 .wrapper .input.transparent textarea:focus:not(.error) {
           border: 2px solid #0066ff;
           box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
-          padding: 7px; }
+          padding: px; }
         .section15 .wrapper .input.transparent input:hover, .section15 .wrapper .input.transparent input:focus, .section15 .wrapper .input.transparent select:hover, .section15 .wrapper .input.transparent select:focus, .section15 .wrapper .input.transparent textarea:hover, .section15 .wrapper .input.transparent textarea:focus {
           background-color: #b8de80; }
       .section15 .wrapper .input.transparent label, .section15 .wrapper .input.transparent label + * {
@@ -2537,6 +2747,13 @@ table {
         box-shadow: 0 0px 3px #ffcbc0 inset;
         background-color: #fff9f8;
         -webkit-text-fill-color: #da2700; }
+        .section15 .wrapper .input.error input:valid, .section15 .wrapper .input.error select:valid, .section15 .wrapper .input.error textarea:valid {
+          padding-right: 5px;
+          padding-left: 25px;
+          background: url("../img/x.png"), url("../img/check.png");
+          background-size: 20px 20px,15px 15px;
+          background-repeat: no-repeat;
+          background-position: 5px 6px ,98% 8px; }
         .section15 .wrapper .input.error input:focus, .section15 .wrapper .input.error select:focus, .section15 .wrapper .input.error textarea:focus {
           border: 2px solid #ff4e27;
           box-shadow: 0 0 0 2px #ffe0da;

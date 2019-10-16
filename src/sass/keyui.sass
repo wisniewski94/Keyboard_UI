@@ -140,9 +140,17 @@
         border: 1px solid darken($n, 15%)
         background-color: lighten($n, 15%)
         box-shadow: 0 0px 3px darken($n, 10%) inset
+        &:valid
+            padding-right: 5px
+            padding-left: 25px
+            background: url('../img/x.png'),url('../img/check.png')
+            background-size: 20px 20px,15px 15px 
+            background-repeat: no-repeat
+            background-position: 5px 6px ,98% 8px
+            
         &:focus:not(.error)
             @include outline($n, "default")
-            padding: 7px
+            padding: px
         @if abs(contrast($n)) < 112980
             //dark
             -webkit-text-fill-color: lighten($n, 65%)
@@ -257,6 +265,13 @@
 
 @mixin error-input($n)
     input, select, textarea
+        &:valid
+            padding-right: 5px
+            padding-left: 25px
+            background: url('../img/x.png'),url('../img/check.png')
+            background-size: 20px 20px,15px 15px 
+            background-repeat: no-repeat
+            background-position: 5px 6px ,98% 8px
         &:focus
             @include outline($n, "error")
             padding: 7px
