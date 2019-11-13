@@ -63,7 +63,5 @@ Run example by forking this repo and run `gulp watch`
 This UI KIt is made by community and for community. If you want to help develop this project you can do it by:
 
 [Report a bug](https://github.com/KeyboardUI/Keyboard_UI/issues)
-
 [Ask for a feature](https://github.com/KeyboardUI/Keyboard_UI/issues)
-
 [Submit a pull request](https://github.com/KeyboardUI/Keyboard_UI/pulls)

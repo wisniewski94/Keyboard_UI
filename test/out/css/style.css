@@ -335,10 +335,10 @@ table {
 }
 .section1 .wrapper .select.transparent select {
   color: #666666;
-  color: #666666;
-  background-color: #ffffff;
-  border: 1px solid #ebebeb;
-  box-shadow: inset 0px 1px 0px white, inset 0 -1px 1px 0 #a6a6a6, 0 1px 1px 0 rgba(179, 179, 179, 0.11), 0 2px 2px 0 rgba(179, 179, 179, 0.11), 0 4px 4px 0 rgba(179, 179, 179, 0.11), 0 8px 16px 0 rgba(179, 179, 179, 0.11);
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  box-shadow: 0 0px 3px #e6e6e6 inset;
+  -webkit-text-fill-color: #737373;
   -webkit-text-fill-color: #666666;
   cursor: pointer;
   padding: 8px 10px;
@@ -356,28 +356,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section1 .wrapper .select.transparent select:active {
-  border: 1px solid #d9d9d9;
-}
-.section1 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section1 .wrapper .select.transparent select:hover:enabled, .section1 .wrapper .select.transparent select:focus:enabled {
-  background-color: #ebebeb;
-}
-.section1 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #f2f2f2;
-  background-color: #ebebeb;
-}
-.section1 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section1 .wrapper .select.transparent select:hover, .section1 .wrapper .select.transparent select:focus {
+  background-color: white;
 }
 .section1 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section1 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section1 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -644,10 +632,10 @@ table {
 }
 .section2 .wrapper .select.transparent select {
   color: #5e4a22;
-  color: #5e4a22;
-  background-color: #ebdfc7;
-  border: 1px solid #e0cea9;
-  box-shadow: inset 0px 1px 0px white, inset 0 -1px 1px 0 #bc9443, 0 1px 1px 0 rgba(195, 159, 86, 0.11), 0 2px 2px 0 rgba(195, 159, 86, 0.11), 0 4px 4px 0 rgba(195, 159, 86, 0.11), 0 8px 16px 0 rgba(195, 159, 86, 0.11);
+  border: 1px solid #d7bf8f;
+  background-color: white;
+  box-shadow: 0 0px 3px #decaa1 inset;
+  -webkit-text-fill-color: #715928;
   -webkit-text-fill-color: #5e4a22;
   cursor: pointer;
   padding: 8px 10px;
@@ -665,28 +653,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section2 .wrapper .select.transparent select:active {
-  border: 1px solid #d7bf8f;
-}
-.section2 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section2 .wrapper .select.transparent select:hover:enabled, .section2 .wrapper .select.transparent select:focus:enabled {
-  background-color: #e0cea9;
-}
-.section2 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #e4d4b4;
-  background-color: #e0cea9;
-}
-.section2 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section2 .wrapper .select.transparent select:hover, .section2 .wrapper .select.transparent select:focus {
+  background-color: #f2eada;
 }
 .section2 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section2 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section2 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -953,10 +929,10 @@ table {
 }
 .section3 .wrapper .select.transparent select {
   color: #1c1a14;
-  color: #1c1a14;
-  background-color: #bfb6a3;
-  border: 1px solid #aea38b;
-  box-shadow: inset 0px 1px 0px #e9e6df, inset 0 -1px 1px 0 #685d48, 0 1px 1px 0 rgba(119, 107, 82, 0.11), 0 2px 2px 0 rgba(119, 107, 82, 0.11), 0 4px 4px 0 rgba(119, 107, 82, 0.11), 0 8px 16px 0 rgba(119, 107, 82, 0.11);
+  border: 1px solid #a09276;
+  background-color: #dedad0;
+  box-shadow: 0 0px 3px #aa9e85 inset;
+  -webkit-text-fill-color: #2b271e;
   -webkit-text-fill-color: #1c1a14;
   cursor: pointer;
   padding: 8px 10px;
@@ -974,28 +950,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section3 .wrapper .select.transparent select:active {
-  border: 1px solid #a09276;
-}
-.section3 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section3 .wrapper .select.transparent select:hover:enabled, .section3 .wrapper .select.transparent select:focus:enabled {
-  background-color: #aea38b;
-}
-.section3 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #b5aa94;
-  background-color: #aea38b;
-}
-.section3 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section3 .wrapper .select.transparent select:hover, .section3 .wrapper .select.transparent select:focus {
+  background-color: #c9c2b2;
 }
 .section3 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section3 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section3 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -1264,10 +1228,10 @@ table {
 }
 .section4 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #454545;
-  border: 1px solid #313131;
-  box-shadow: inset 0px 1px 0px #787878, inset 0 -1px 1px 0 black, 0 1px 1px 0 rgba(0, 0, 0, 0.11), 0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 4px 4px 0 rgba(0, 0, 0, 0.11), 0 8px 16px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #1f1f1f;
+  background-color: #6b6b6b;
+  box-shadow: 0 0px 3px #2c2c2c inset;
+  -webkit-text-fill-color: #ebebeb;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -1285,28 +1249,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section4 .wrapper .select.transparent select:active {
-  border: 1px solid #1f1f1f;
-}
-.section4 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section4 .wrapper .select.transparent select:hover:enabled, .section4 .wrapper .select.transparent select:focus:enabled {
-  background-color: #646464;
-}
-.section4 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #525252;
-  background-color: #646464;
-}
-.section4 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section4 .wrapper .select.transparent select:hover, .section4 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #525252;
 }
 .section4 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section4 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section4 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -1577,10 +1530,10 @@ table {
 }
 .section5 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #bf4122;
-  border: 1px solid #9c351c;
-  box-shadow: inset 0px 1px 0px #e37d64, inset 0 -1px 1px 0 #270d07, 0 1px 1px 0 rgba(61, 21, 11, 0.11), 0 2px 2px 0 rgba(61, 21, 11, 0.11), 0 4px 4px 0 rgba(61, 21, 11, 0.11), 0 8px 16px 0 rgba(61, 21, 11, 0.11);
+  border: 1px solid #7e2b16;
+  background-color: #df6b4e;
+  box-shadow: 0 0px 3px #94321a inset;
+  -webkit-text-fill-color: white;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -1598,28 +1551,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section5 .wrapper .select.transparent select:active {
-  border: 1px solid #7e2b16;
-}
-.section5 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section5 .wrapper .select.transparent select:hover:enabled, .section5 .wrapper .select.transparent select:focus:enabled {
-  background-color: #dd6041;
-}
-.section5 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #d54826;
-  background-color: #dd6041;
-}
-.section5 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section5 .wrapper .select.transparent select:hover, .section5 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #d54826;
 }
 .section5 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section5 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section5 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -1890,10 +1832,10 @@ table {
 }
 .section6 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #cf4232;
-  border: 1px solid #af3729;
-  box-shadow: inset 0px 1px 0px #e28e85, inset 0 -1px 1px 0 #40140f, 0 1px 1px 0 rgba(84, 26, 20, 0.11), 0 2px 2px 0 rgba(84, 26, 20, 0.11), 0 4px 4px 0 rgba(84, 26, 20, 0.11), 0 8px 16px 0 rgba(84, 26, 20, 0.11);
+  border: 1px solid #922e22;
+  background-color: #de7b70;
+  box-shadow: 0 0px 3px #a73427 inset;
+  -webkit-text-fill-color: white;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -1911,28 +1853,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section6 .wrapper .select.transparent select:active {
-  border: 1px solid #922e22;
-}
-.section6 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section6 .wrapper .select.transparent select:hover:enabled, .section6 .wrapper .select.transparent select:focus:enabled {
-  background-color: #db7064;
-}
-.section6 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #d45547;
-  background-color: #db7064;
-}
-.section6 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section6 .wrapper .select.transparent select:hover, .section6 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #d45547;
 }
 .section6 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section6 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section6 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -2201,10 +2132,10 @@ table {
 }
 .section7 .wrapper .select.transparent select {
   color: black;
-  color: black;
-  background-color: #eb7f23;
-  border: 1px solid #d26b13;
-  box-shadow: inset 0px 1px 0px #f4b581, inset 0 -1px 1px 0 #542b08, 0 1px 1px 0 rgba(107, 55, 10, 0.11), 0 2px 2px 0 rgba(107, 55, 10, 0.11), 0 4px 4px 0 rgba(107, 55, 10, 0.11), 0 8px 16px 0 rgba(107, 55, 10, 0.11);
+  border: 1px solid #b15a10;
+  background-color: #f1a869;
+  box-shadow: 0 0px 3px #c96612 inset;
+  -webkit-text-fill-color: black;
   -webkit-text-fill-color: black;
   cursor: pointer;
   padding: 8px 10px;
@@ -2222,28 +2153,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section7 .wrapper .select.transparent select:active {
-  border: 1px solid #b15a10;
-}
-.section7 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section7 .wrapper .select.transparent select:hover:enabled, .section7 .wrapper .select.transparent select:focus:enabled {
-  background-color: #d26b13;
-}
-.section7 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #e07214;
-  background-color: #d26b13;
-}
-.section7 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section7 .wrapper .select.transparent select:hover, .section7 .wrapper .select.transparent select:focus {
+  background-color: #ed8d3a;
 }
 .section7 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section7 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section7 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -2510,10 +2429,10 @@ table {
 }
 .section8 .wrapper .select.transparent select {
   color: black;
-  color: black;
-  background-color: #fac023;
-  border: 1px solid #efb005;
-  box-shadow: inset 0px 1px 0px #fcdd87, inset 0 -1px 1px 0 #684d02, 0 1px 1px 0 rgba(129, 95, 3, 0.11), 0 2px 2px 0 rgba(129, 95, 3, 0.11), 0 4px 4px 0 rgba(129, 95, 3, 0.11), 0 8px 16px 0 rgba(129, 95, 3, 0.11);
+  border: 1px solid #cc9605;
+  background-color: #fcd56e;
+  box-shadow: 0 0px 3px #e5a805 inset;
+  -webkit-text-fill-color: #040300;
   -webkit-text-fill-color: black;
   cursor: pointer;
   padding: 8px 10px;
@@ -2531,28 +2450,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section8 .wrapper .select.transparent select:active {
-  border: 1px solid #cc9605;
-}
-.section8 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section8 .wrapper .select.transparent select:hover:enabled, .section8 .wrapper .select.transparent select:focus:enabled {
-  background-color: #efb005;
-}
-.section8 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #f9b90a;
-  background-color: #efb005;
-}
-.section8 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section8 .wrapper .select.transparent select:hover, .section8 .wrapper .select.transparent select:focus {
+  background-color: #fbc73c;
 }
 .section8 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section8 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section8 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -2821,10 +2728,10 @@ table {
 }
 .section9 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #068675;
-  border: 1px solid #045f53;
-  box-shadow: inset 0px 1px 0px #0ae8ca, inset 0 -1px 1px 0 black, 0 1px 1px 0 rgba(0, 0, 0, 0.11), 0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 4px 4px 0 rgba(0, 0, 0, 0.11), 0 8px 16px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #033d35;
+  background-color: #09cfb5;
+  box-shadow: 0 0px 3px #04554a inset;
+  -webkit-text-fill-color: #dafdf9;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -2842,28 +2749,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section9 .wrapper .select.transparent select:active {
-  border: 1px solid #033d35;
-}
-.section9 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section9 .wrapper .select.transparent select:hover:enabled, .section9 .wrapper .select.transparent select:focus:enabled {
-  background-color: #09c1a8;
-}
-.section9 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #079e8a;
-  background-color: #09c1a8;
-}
-.section9 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section9 .wrapper .select.transparent select:hover, .section9 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #079e8a;
 }
 .section9 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section9 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section9 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -3134,10 +3030,10 @@ table {
 }
 .section10 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #6b202e;
-  border: 1px solid #4c1720;
-  box-shadow: inset 0px 1px 0px #ba3750, inset 0 -1px 1px 0 black, 0 1px 1px 0 rgba(0, 0, 0, 0.11), 0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 4px 4px 0 rgba(0, 0, 0, 0.11), 0 8px 16px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #300e15;
+  background-color: #a63247;
+  box-shadow: 0 0px 3px #44141d inset;
+  -webkit-text-fill-color: #f6e1e5;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -3155,28 +3051,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section10 .wrapper .select.transparent select:active {
-  border: 1px solid #300e15;
-}
-.section10 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section10 .wrapper .select.transparent select:hover:enabled, .section10 .wrapper .select.transparent select:focus:enabled {
-  background-color: #9a2e42;
-}
-.section10 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #7f2636;
-  background-color: #9a2e42;
-}
-.section10 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section10 .wrapper .select.transparent select:hover, .section10 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #7f2636;
 }
 .section10 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section10 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section10 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -3447,10 +3332,10 @@ table {
 }
 .section11 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #165873;
-  border: 1px solid #0f3e51;
-  box-shadow: inset 0px 1px 0px #269ac9, inset 0 -1px 1px 0 black, 0 1px 1px 0 rgba(0, 0, 0, 0.11), 0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 4px 4px 0 rgba(0, 0, 0, 0.11), 0 8px 16px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #0a2733;
+  background-color: #2289b3;
+  box-shadow: 0 0px 3px #0e3748 inset;
+  -webkit-text-fill-color: #dcf0f8;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -3468,28 +3353,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section11 .wrapper .select.transparent select:active {
-  border: 1px solid #0a2733;
-}
-.section11 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section11 .wrapper .select.transparent select:hover:enabled, .section11 .wrapper .select.transparent select:focus:enabled {
-  background-color: #207fa6;
-}
-.section11 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #1a6888;
-  background-color: #207fa6;
-}
-.section11 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section11 .wrapper .select.transparent select:hover, .section11 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #1a6888;
 }
 .section11 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section11 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section11 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -3760,10 +3634,10 @@ table {
 }
 .section12 .wrapper .select.transparent select {
   color: #eef9fc;
-  color: #eef9fc;
-  background-color: #124c59;
-  border: 1px solid #0b2f37;
-  box-shadow: inset 0px 1px 0px #2394ae, inset 0 -1px 1px 0 black, 0 1px 1px 0 rgba(0, 0, 0, 0.11), 0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 4px 4px 0 rgba(0, 0, 0, 0.11), 0 8px 16px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #051619;
+  background-color: #1f8299;
+  box-shadow: 0 0px 3px #09282f inset;
+  -webkit-text-fill-color: #c4eaf3;
   -webkit-text-fill-color: #eef9fc;
   cursor: pointer;
   padding: 8px 10px;
@@ -3781,28 +3655,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section12 .wrapper .select.transparent select:active {
-  border: 1px solid #051619;
-}
-.section12 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section12 .wrapper .select.transparent select:hover:enabled, .section12 .wrapper .select.transparent select:focus:enabled {
-  background-color: #1c778c;
-}
-.section12 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #165e6e;
-  background-color: #1c778c;
-}
-.section12 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section12 .wrapper .select.transparent select:hover, .section12 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #165e6e;
 }
 .section12 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section12 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section12 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -4073,10 +3936,10 @@ table {
 }
 .section13 .wrapper .select.transparent select {
   color: white;
-  color: white;
-  background-color: #428c5c;
-  border: 1px solid #35704a;
-  box-shadow: inset 0px 1px 0px #76be8f, inset 0 -1px 1px 0 #09130c, 0 1px 1px 0 rgba(17, 36, 24, 0.11), 0 2px 2px 0 rgba(17, 36, 24, 0.11), 0 4px 4px 0 rgba(17, 36, 24, 0.11), 0 8px 16px 0 rgba(17, 36, 24, 0.11);
+  border: 1px solid #29583a;
+  background-color: #64b681;
+  box-shadow: 0 0px 3px #326945 inset;
+  -webkit-text-fill-color: white;
   -webkit-text-fill-color: white;
   cursor: pointer;
   padding: 8px 10px;
@@ -4094,28 +3957,17 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section13 .wrapper .select.transparent select:active {
-  border: 1px solid #29583a;
-}
-.section13 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section13 .wrapper .select.transparent select:hover:enabled, .section13 .wrapper .select.transparent select:focus:enabled {
-  background-color: #5ab179;
-}
-.section13 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #4a9d67;
-  background-color: #5ab179;
-}
-.section13 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #1a5fc7;
-  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
+.section13 .wrapper .select.transparent select:hover, .section13 .wrapper .select.transparent select:focus {
+  -webkit-text-fill-color: white;
+  background-color: #4a9d67;
 }
 .section13 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section13 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #1a5fc7;
+  box-shadow: 0 0 0 2px rgba(82, 163, 222, 0.8);
 }
 .section13 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -4384,10 +4236,10 @@ table {
 }
 .section14 .wrapper .select.transparent select {
   color: black;
-  color: black;
-  background-color: #4ea64b;
-  border: 1px solid #418a3e;
-  box-shadow: inset 0px 1px 0px #8ecb8c, inset 0 -1px 1px 0 #142b13, 0 1px 1px 0 rgba(28, 61, 27, 0.11), 0 2px 2px 0 rgba(28, 61, 27, 0.11), 0 4px 4px 0 rgba(28, 61, 27, 0.11), 0 8px 16px 0 rgba(28, 61, 27, 0.11);
+  border: 1px solid #357133;
+  background-color: #7dc37a;
+  box-shadow: 0 0px 3px #3d833b inset;
+  -webkit-text-fill-color: black;
   -webkit-text-fill-color: black;
   cursor: pointer;
   padding: 8px 10px;
@@ -4405,28 +4257,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section14 .wrapper .select.transparent select:active {
-  border: 1px solid #357133;
-}
-.section14 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section14 .wrapper .select.transparent select:hover:enabled, .section14 .wrapper .select.transparent select:focus:enabled {
-  background-color: #418a3e;
-}
-.section14 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #469443;
-  background-color: #418a3e;
-}
-.section14 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section14 .wrapper .select.transparent select:hover, .section14 .wrapper .select.transparent select:focus {
+  background-color: #5ab357;
 }
 .section14 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section14 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section14 .wrapper .select.transparent select:active {
   padding: 7px 9px;
@@ -4693,10 +4533,10 @@ table {
 }
 .section15 .wrapper .select.transparent select {
   color: #0b0f04;
-  color: #0b0f04;
-  background-color: #add96c;
-  border: 1px solid #9bd14c;
-  box-shadow: inset 0px 1px 0px #daeebd, inset 0 -1px 1px 0 #52741e, 0 1px 1px 0 rgba(96, 137, 35, 0.11), 0 2px 2px 0 rgba(96, 137, 35, 0.11), 0 4px 4px 0 rgba(96, 137, 35, 0.11), 0 8px 16px 0 rgba(96, 137, 35, 0.11);
+  border: 1px solid #8ac533;
+  background-color: #cfe9a9;
+  box-shadow: 0 0px 3px #96cf43 inset;
+  -webkit-text-fill-color: #192309;
   -webkit-text-fill-color: #0b0f04;
   cursor: pointer;
   padding: 8px 10px;
@@ -4714,28 +4554,16 @@ table {
   transition: all 0.15s ease-in-out;
   transition-property: background-color, opacity;
 }
-.section15 .wrapper .select.transparent select:active {
-  border: 1px solid #8ac533;
-}
-.section15 .wrapper .select.transparent select:disabled {
-  opacity: 0.5;
-  cursor: default;
-  box-shadow: none;
-}
-.section15 .wrapper .select.transparent select:hover:enabled, .section15 .wrapper .select.transparent select:focus:enabled {
-  background-color: #9bd14c;
-}
-.section15 .wrapper .select.transparent select:active:enabled {
-  box-shadow: inset 0 -1px 1px 0 #a2d458;
-  background-color: #9bd14c;
-}
-.section15 .wrapper .select.transparent select:focus:enabled:not([data-whatintent=mouse]):not([data-whatinput=mouse]) {
-  border: 2px solid #0066ff;
-  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
+.section15 .wrapper .select.transparent select:hover, .section15 .wrapper .select.transparent select:focus {
+  background-color: #b8de80;
 }
 .section15 .wrapper .select.transparent select:focus {
   padding: 7px 9px;
   border: 2px solid rgba(255, 255, 255, 0);
+}
+.section15 .wrapper .select.transparent select:focus:not(.error) {
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 0 2px rgba(165, 201, 227, 0.8);
 }
 .section15 .wrapper .select.transparent select:active {
   padding: 7px 9px;

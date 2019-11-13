@@ -358,7 +358,7 @@
         @include textColor($n)
     select 
         @include textColor($n)
-        @include transparent-btn($n)
+        @include transparent-input-base($n)
         -webkit-text-fill-color: color($n)
         cursor: pointer
         padding: 8px 10px
@@ -378,6 +378,8 @@
         &:focus
             padding: 7px 9px
             border: 2px solid rgba(255,255,255,0)
+        &:focus:not(.error)
+            @include outline($n, "default")
         &:active
             padding: 7px 9px
         
