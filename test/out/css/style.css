@@ -55,6 +55,47 @@ table {
   border-spacing: 0;
 }
 
+* {
+  background-color: rgba(255, 0, 0, 0.2);
+  outline: 1px solid blue;
+}
+* * {
+  background-color: rgba(0, 254, 0, 0.2);
+}
+* * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+* * * * {
+  background-color: rgba(255, 0, 255, 0.2);
+}
+* * * * * {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+* * * * * * {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+* * * * * * * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+* * * * * * * * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+* * * * * * * * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+* * * * * * * * * * {
+  background-color: rgba(0, 10, 255, 0.2);
+}
+* * * * * * * * * * * {
+  background-color: rgba(0, 10, 200, 0.2);
+}
+* * * * * * * * * * * * {
+  background-color: rgba(0, 10, 200, 0.2);
+}
+* * * * * * * * * * * * * {
+  background-color: rgba(0, 10, 200, 0.2);
+}
+
 .section1 .wrapper .wrap button.ui.transparent, .section1 .wrapper .wrap button.ui.primary, .section2 .wrapper .wrap button.ui.transparent, .section2 .wrapper .wrap button.ui.primary, .section3 .wrapper .wrap button.ui.transparent, .section3 .wrapper .wrap button.ui.primary, .section4 .wrapper .wrap button.ui.transparent, .section4 .wrapper .wrap button.ui.primary, .section5 .wrapper .wrap button.ui.transparent, .section5 .wrapper .wrap button.ui.primary, .section6 .wrapper .wrap button.ui.transparent, .section6 .wrapper .wrap button.ui.primary, .section7 .wrapper .wrap button.ui.transparent, .section7 .wrapper .wrap button.ui.primary, .section8 .wrapper .wrap button.ui.transparent, .section8 .wrapper .wrap button.ui.primary, .section9 .wrapper .wrap button.ui.transparent, .section9 .wrapper .wrap button.ui.primary, .section10 .wrapper .wrap button.ui.transparent, .section10 .wrapper .wrap button.ui.primary, .section11 .wrapper .wrap button.ui.transparent, .section11 .wrapper .wrap button.ui.primary, .section12 .wrapper .wrap button.ui.transparent, .section12 .wrapper .wrap button.ui.primary, .section13 .wrapper .wrap button.ui.transparent, .section13 .wrapper .wrap button.ui.primary, .section14 .wrapper .wrap button.ui.transparent, .section14 .wrapper .wrap button.ui.primary, .section15 .wrapper .wrap button.ui.transparent, .section15 .wrapper .wrap button.ui.primary, .section1 .wrapper .ui.pag.transparent button, .section2 .wrapper .ui.pag.transparent button, .section3 .wrapper .ui.pag.transparent button, .section4 .wrapper .ui.pag.transparent button, .section5 .wrapper .ui.pag.transparent button, .section6 .wrapper .ui.pag.transparent button, .section7 .wrapper .ui.pag.transparent button, .section8 .wrapper .ui.pag.transparent button, .section9 .wrapper .ui.pag.transparent button, .section10 .wrapper .ui.pag.transparent button, .section11 .wrapper .ui.pag.transparent button, .section12 .wrapper .ui.pag.transparent button, .section13 .wrapper .ui.pag.transparent button, .section14 .wrapper .ui.pag.transparent button, .section15 .wrapper .ui.pag.transparent button {
   cursor: pointer;
   padding: 12px 31px;
@@ -349,6 +390,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -646,6 +688,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -943,6 +986,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -1242,6 +1286,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -1544,6 +1589,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -1846,6 +1892,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -2146,6 +2193,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -2443,6 +2491,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -2742,6 +2791,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -3044,6 +3094,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -3346,6 +3397,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -3648,6 +3700,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -3950,6 +4003,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -4250,6 +4304,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
@@ -4547,6 +4602,7 @@ table {
   font-family: "Roboto";
   outline: none;
   user-select: none;
+  -webkit-appearance: none;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;

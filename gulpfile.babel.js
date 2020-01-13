@@ -28,10 +28,19 @@ const browser = done => {
   browserify(config.src.js, { debug: true })
     .transform(babel)
     .bundle()
-    .pipe(fs.createWriteStream("./src/keyui.js"));
-  patch(config.src.patch, config.src.modules);
+    .pipe(fs.createWriteStream("./dist/keyui.js"));
+  console.log("browserify");
+  //patch(config.src.patch, config.src.modules);
+  console.log("patch");
   done();
 };
+
+const patch2 = done => {
+  patch(config.src.patch, config.src.modules);
+  done();
+}
+
+
 
 const reload = done => {
   server.reload();
@@ -87,5 +96,5 @@ const build = done => {
   done();
 };
 const dev = series(pugTest, testSass);
-const watch = series(serve, dev, observe);
-export { dev, testSass, watch, browser, build };
+const watch = series(serve, observe);
+export { dev, testSass, watch, browser, build, patch2};
